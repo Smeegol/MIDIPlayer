@@ -1,9 +1,8 @@
 # MIDIPlayer
-Non Perfect MIDI Player
 
-This is a audio player playing MIDI files by using `AUGraph`, `MusicSequence`, and `MusicPlayer`, which can play most MIDI files. You can test and compare the performance by using Sweet MIDI Player (http://www.ronimusic.com/download.htm#DL_SWEET_MIDI_PLAYER).
+This is a audio player playing MIDI files by using `AUGraph`, `MusicSequence`, and `MusicPlayer`, which can play most MIDI files. You can test it and compare the performance with Sweet MIDI Player  (http://www.ronimusic.com/download.htm#DL_SWEET_MIDI_PLAYER) plays.
 
-BUT there still 
+BUT there are still 
 `100.mid`, 
 `100去踏板.mid`, 
 `100去鼓.mid`, 
@@ -12,4 +11,4 @@ BUT there still
 `120去鼓去贝司.mid`, 
 `MIDI文件demo1（120）.mid`, 
 `MIDI文件demo2（100）.mid` 
-cannot be played very well. It can be recognized clearly not same with the Sweet MIDI Player plays. Who can help me fix it, let them play totally right? Thanks!
+cannot be played very well. It can be recognized clearly different with Sweet MIDI Player plays. Who can help me fix it, let it play totally right? Thanks!
