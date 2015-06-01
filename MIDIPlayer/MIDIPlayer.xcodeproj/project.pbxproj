@@ -1,0 +1,450 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3F0A2BAC1AEE24FE000D49DB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F0A2BAB1AEE24FE000D49DB /* main.m */; };
+		3F0A2BAF1AEE24FE000D49DB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F0A2BAE1AEE24FE000D49DB /* AppDelegate.m */; };
+		3F0A2BB21AEE24FE000D49DB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F0A2BB11AEE24FE000D49DB /* ViewController.m */; };
+		3F0A2BB51AEE24FE000D49DB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F0A2BB31AEE24FE000D49DB /* Main.storyboard */; };
+		3F0A2BB71AEE24FE000D49DB /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F0A2BB61AEE24FE000D49DB /* Images.xcassets */; };
+		3F0A2BBA1AEE24FE000D49DB /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3F0A2BB81AEE24FE000D49DB /* LaunchScreen.xib */; };
+		3F0A2BD81AEE2581000D49DB /* MIDIPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F0A2BD21AEE2581000D49DB /* MIDIPlayer.m */; };
+		3F53E0511B1C5E9700D8A4AC /* 100.mid in Resources */ = {isa = PBXBuildFile; fileRef = 3F53E02F1B1C5E9700D8A4AC /* 100.mid */; };
+		3F53E0521B1C5E9700D8A4AC /* 100去踏板.mid in Resources */ = {isa = PBXBuildFile; fileRef = 3F53E0301B1C5E9700D8A4AC /* 100去踏板.mid */; };
+		3F53E0531B1C5E9700D8A4AC /* 100去鼓.mid in Resources */ = {isa = PBXBuildFile; fileRef = 3F53E0311B1C5E9700D8A4AC /* 100去鼓.mid */; };
+		3F53E0541B1C5E9700D8A4AC /* 100去鼓去踏板.mid in Resources */ = {isa = PBXBuildFile; fileRef = 3F53E0321B1C5E9700D8A4AC /* 100去鼓去踏板.mid */; };
+		3F53E0551B1C5E9700D8A4AC /* 120.mid in Resources */ = {isa = PBXBuildFile; fileRef = 3F53E0331B1C5E9700D8A4AC /* 120.mid */; };
+		3F53E0561B1C5E9700D8A4AC /* 120去鼓去贝司.mid in Resources */ = {isa = PBXBuildFile; fileRef = 3F53E0341B1C5E9700D8A4AC /* 120去鼓去贝司.mid */; };
+		3F53E0571B1C5E9700D8A4AC /* AguadoOp4No1.mid in Resources */ = {isa = PBXBuildFile; fileRef = 3F53E0351B1C5E9700D8A4AC /* AguadoOp4No1.mid */; };
+		3F53E0581B1C5E9700D8A4AC /* ants.mid in Resources */ = {isa = PBXBuildFile; fileRef = 3F53E0361B1C5E9700D8A4AC /* ants.mid */; };
+		3F53E0591B1C5E9700D8A4AC /* Bass_sample.mid in Resources */ = {isa = PBXBuildFile; fileRef = 3F53E0371B1C5E9700D8A4AC /* Bass_sample.mid */; };
+		3F53E05A1B1C5E9700D8A4AC /* Campeone.mid in Resources */ = {isa = PBXBuildFile; fileRef = 3F53E0381B1C5E9700D8A4AC /* Campeone.mid */; };
+		3F53E05B1B1C5E9700D8A4AC /* demo1_with_lyrics.mid in Resources */ = {isa = PBXBuildFile; fileRef = 3F53E0391B1C5E9700D8A4AC /* demo1_with_lyrics.mid */; };
+		3F53E05C1B1C5E9700D8A4AC /* demo2_with_lyrics.mid in Resources */ = {isa = PBXBuildFile; fileRef = 3F53E03A1B1C5E9700D8A4AC /* demo2_with_lyrics.mid */; };
+		3F53E05D1B1C5E9700D8A4AC /* Digamese.mid in Resources */ = {isa = PBXBuildFile; fileRef = 3F53E03B1B1C5E9700D8A4AC /* Digamese.mid */; };
+		3F53E05E1B1C5E9700D8A4AC /* Drum_sample.mid in Resources */ = {isa = PBXBuildFile; fileRef = 3F53E03C1B1C5E9700D8A4AC /* Drum_sample.mid */; };
+		3F53E05F1B1C5E9700D8A4AC /* GM_DEMO.mid in Resources */ = {isa = PBXBuildFile; fileRef = 3F53E03D1B1C5E9700D8A4AC /* GM_DEMO.mid */; };
+		3F53E0601B1C5E9700D8A4AC /* Le Sacre Du Printemps - Stravinsky (Piano).mid in Resources */ = {isa = PBXBuildFile; fileRef = 3F53E03E1B1C5E9700D8A4AC /* Le Sacre Du Printemps - Stravinsky (Piano).mid */; };
+		3F53E0611B1C5E9700D8A4AC /* MIDI文件demo1（120）.mid in Resources */ = {isa = PBXBuildFile; fileRef = 3F53E03F1B1C5E9700D8A4AC /* MIDI文件demo1（120）.mid */; };
+		3F53E0621B1C5E9700D8A4AC /* MIDI文件demo2（100）.mid in Resources */ = {isa = PBXBuildFile; fileRef = 3F53E0401B1C5E9700D8A4AC /* MIDI文件demo2（100）.mid */; };
+		3F53E0631B1C5E9700D8A4AC /* PRESO.mid in Resources */ = {isa = PBXBuildFile; fileRef = 3F53E0411B1C5E9700D8A4AC /* PRESO.mid */; };
+		3F53E0641B1C5E9700D8A4AC /* Rondeau.mid in Resources */ = {isa = PBXBuildFile; fileRef = 3F53E0421B1C5E9700D8A4AC /* Rondeau.mid */; };
+		3F53E0651B1C5E9700D8A4AC /* Rondo in C (Op.51. No.1.).mid in Resources */ = {isa = PBXBuildFile; fileRef = 3F53E0431B1C5E9700D8A4AC /* Rondo in C (Op.51. No.1.).mid */; };
+		3F53E0661B1C5E9700D8A4AC /* simpletest.mid in Resources */ = {isa = PBXBuildFile; fileRef = 3F53E0441B1C5E9700D8A4AC /* simpletest.mid */; };
+		3F53E0671B1C5E9700D8A4AC /* Sonata No 14 in C#min-1.mid in Resources */ = {isa = PBXBuildFile; fileRef = 3F53E0451B1C5E9700D8A4AC /* Sonata No 14 in C#min-1.mid */; };
+		3F53E0681B1C5E9700D8A4AC /* Sonata No 14 in C#min-3.mid in Resources */ = {isa = PBXBuildFile; fileRef = 3F53E0461B1C5E9700D8A4AC /* Sonata No 14 in C#min-3.mid */; };
+		3F53E0691B1C5E9700D8A4AC /* Sonata No.9 in E-1.mid in Resources */ = {isa = PBXBuildFile; fileRef = 3F53E0471B1C5E9700D8A4AC /* Sonata No.9 in E-1.mid */; };
+		3F53E06A1B1C5E9700D8A4AC /* Winter Wonderland (solo piano).mid in Resources */ = {isa = PBXBuildFile; fileRef = 3F53E0481B1C5E9700D8A4AC /* Winter Wonderland (solo piano).mid */; };
+		3F53E06B1B1C5E9700D8A4AC /* 命运交响曲第一章.mid in Resources */ = {isa = PBXBuildFile; fileRef = 3F53E0491B1C5E9700D8A4AC /* 命运交响曲第一章.mid */; };
+		3F53E06C1B1C5E9700D8A4AC /* 埃克赛斯舞曲.mid in Resources */ = {isa = PBXBuildFile; fileRef = 3F53E04A1B1C5E9700D8A4AC /* 埃克赛斯舞曲.mid */; };
+		3F53E06D1B1C5E9700D8A4AC /* 绮想轮旋曲.mid in Resources */ = {isa = PBXBuildFile; fileRef = 3F53E04B1B1C5E9700D8A4AC /* 绮想轮旋曲.mid */; };
+		3F53E06E1B1C5E9700D8A4AC /* 致爱丽丝.mid in Resources */ = {isa = PBXBuildFile; fileRef = 3F53E04C1B1C5E9700D8A4AC /* 致爱丽丝.mid */; };
+		3F53E0731B1C5EFA00D8A4AC /* MIDIUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F53E0721B1C5EFA00D8A4AC /* MIDIUtils.m */; };
+		3F53E0751B1C5F6700D8A4AC /* gs_instruments.dls in Resources */ = {isa = PBXBuildFile; fileRef = 3F53E0741B1C5F6700D8A4AC /* gs_instruments.dls */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3F0A2BA61AEE24FE000D49DB /* MIDIPlayer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MIDIPlayer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F0A2BAA1AEE24FE000D49DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3F0A2BAB1AEE24FE000D49DB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3F0A2BAD1AEE24FE000D49DB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3F0A2BAE1AEE24FE000D49DB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3F0A2BB01AEE24FE000D49DB /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		3F0A2BB11AEE24FE000D49DB /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		3F0A2BB41AEE24FE000D49DB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3F0A2BB61AEE24FE000D49DB /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		3F0A2BB91AEE24FE000D49DB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		3F0A2BD01AEE2581000D49DB /* MIDIUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MIDIUtils.h; sourceTree = "<group>"; };
+		3F0A2BD11AEE2581000D49DB /* MIDIPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MIDIPlayer.h; sourceTree = "<group>"; };
+		3F0A2BD21AEE2581000D49DB /* MIDIPlayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MIDIPlayer.m; sourceTree = "<group>"; };
+		3F53E02F1B1C5E9700D8A4AC /* 100.mid */ = {isa = PBXFileReference; lastKnownFileType = audio.midi; path = 100.mid; sourceTree = "<group>"; };
+		3F53E0301B1C5E9700D8A4AC /* 100去踏板.mid */ = {isa = PBXFileReference; lastKnownFileType = audio.midi; path = "100去踏板.mid"; sourceTree = "<group>"; };
+		3F53E0311B1C5E9700D8A4AC /* 100去鼓.mid */ = {isa = PBXFileReference; lastKnownFileType = audio.midi; path = "100去鼓.mid"; sourceTree = "<group>"; };
+		3F53E0321B1C5E9700D8A4AC /* 100去鼓去踏板.mid */ = {isa = PBXFileReference; lastKnownFileType = audio.midi; path = "100去鼓去踏板.mid"; sourceTree = "<group>"; };
+		3F53E0331B1C5E9700D8A4AC /* 120.mid */ = {isa = PBXFileReference; lastKnownFileType = audio.midi; path = 120.mid; sourceTree = "<group>"; };
+		3F53E0341B1C5E9700D8A4AC /* 120去鼓去贝司.mid */ = {isa = PBXFileReference; lastKnownFileType = audio.midi; path = "120去鼓去贝司.mid"; sourceTree = "<group>"; };
+		3F53E0351B1C5E9700D8A4AC /* AguadoOp4No1.mid */ = {isa = PBXFileReference; lastKnownFileType = audio.midi; path = AguadoOp4No1.mid; sourceTree = "<group>"; };
+		3F53E0361B1C5E9700D8A4AC /* ants.mid */ = {isa = PBXFileReference; lastKnownFileType = audio.midi; path = ants.mid; sourceTree = "<group>"; };
+		3F53E0371B1C5E9700D8A4AC /* Bass_sample.mid */ = {isa = PBXFileReference; lastKnownFileType = audio.midi; path = Bass_sample.mid; sourceTree = "<group>"; };
+		3F53E0381B1C5E9700D8A4AC /* Campeone.mid */ = {isa = PBXFileReference; lastKnownFileType = audio.midi; path = Campeone.mid; sourceTree = "<group>"; };
+		3F53E0391B1C5E9700D8A4AC /* demo1_with_lyrics.mid */ = {isa = PBXFileReference; lastKnownFileType = audio.midi; path = demo1_with_lyrics.mid; sourceTree = "<group>"; };
+		3F53E03A1B1C5E9700D8A4AC /* demo2_with_lyrics.mid */ = {isa = PBXFileReference; lastKnownFileType = audio.midi; path = demo2_with_lyrics.mid; sourceTree = "<group>"; };
+		3F53E03B1B1C5E9700D8A4AC /* Digamese.mid */ = {isa = PBXFileReference; lastKnownFileType = audio.midi; path = Digamese.mid; sourceTree = "<group>"; };
+		3F53E03C1B1C5E9700D8A4AC /* Drum_sample.mid */ = {isa = PBXFileReference; lastKnownFileType = audio.midi; path = Drum_sample.mid; sourceTree = "<group>"; };
+		3F53E03D1B1C5E9700D8A4AC /* GM_DEMO.mid */ = {isa = PBXFileReference; lastKnownFileType = audio.midi; path = GM_DEMO.mid; sourceTree = "<group>"; };
+		3F53E03E1B1C5E9700D8A4AC /* Le Sacre Du Printemps - Stravinsky (Piano).mid */ = {isa = PBXFileReference; lastKnownFileType = audio.midi; path = "Le Sacre Du Printemps - Stravinsky (Piano).mid"; sourceTree = "<group>"; };
+		3F53E03F1B1C5E9700D8A4AC /* MIDI文件demo1（120）.mid */ = {isa = PBXFileReference; lastKnownFileType = audio.midi; path = "MIDI文件demo1（120）.mid"; sourceTree = "<group>"; };
+		3F53E0401B1C5E9700D8A4AC /* MIDI文件demo2（100）.mid */ = {isa = PBXFileReference; lastKnownFileType = audio.midi; path = "MIDI文件demo2（100）.mid"; sourceTree = "<group>"; };
+		3F53E0411B1C5E9700D8A4AC /* PRESO.mid */ = {isa = PBXFileReference; lastKnownFileType = audio.midi; path = PRESO.mid; sourceTree = "<group>"; };
+		3F53E0421B1C5E9700D8A4AC /* Rondeau.mid */ = {isa = PBXFileReference; lastKnownFileType = audio.midi; path = Rondeau.mid; sourceTree = "<group>"; };
+		3F53E0431B1C5E9700D8A4AC /* Rondo in C (Op.51. No.1.).mid */ = {isa = PBXFileReference; lastKnownFileType = audio.midi; path = "Rondo in C (Op.51. No.1.).mid"; sourceTree = "<group>"; };
+		3F53E0441B1C5E9700D8A4AC /* simpletest.mid */ = {isa = PBXFileReference; lastKnownFileType = audio.midi; path = simpletest.mid; sourceTree = "<group>"; };
+		3F53E0451B1C5E9700D8A4AC /* Sonata No 14 in C#min-1.mid */ = {isa = PBXFileReference; lastKnownFileType = audio.midi; path = "Sonata No 14 in C#min-1.mid"; sourceTree = "<group>"; };
+		3F53E0461B1C5E9700D8A4AC /* Sonata No 14 in C#min-3.mid */ = {isa = PBXFileReference; lastKnownFileType = audio.midi; path = "Sonata No 14 in C#min-3.mid"; sourceTree = "<group>"; };
+		3F53E0471B1C5E9700D8A4AC /* Sonata No.9 in E-1.mid */ = {isa = PBXFileReference; lastKnownFileType = audio.midi; path = "Sonata No.9 in E-1.mid"; sourceTree = "<group>"; };
+		3F53E0481B1C5E9700D8A4AC /* Winter Wonderland (solo piano).mid */ = {isa = PBXFileReference; lastKnownFileType = audio.midi; path = "Winter Wonderland (solo piano).mid"; sourceTree = "<group>"; };
+		3F53E0491B1C5E9700D8A4AC /* 命运交响曲第一章.mid */ = {isa = PBXFileReference; lastKnownFileType = audio.midi; path = "命运交响曲第一章.mid"; sourceTree = "<group>"; };
+		3F53E04A1B1C5E9700D8A4AC /* 埃克赛斯舞曲.mid */ = {isa = PBXFileReference; lastKnownFileType = audio.midi; path = "埃克赛斯舞曲.mid"; sourceTree = "<group>"; };
+		3F53E04B1B1C5E9700D8A4AC /* 绮想轮旋曲.mid */ = {isa = PBXFileReference; lastKnownFileType = audio.midi; path = "绮想轮旋曲.mid"; sourceTree = "<group>"; };
+		3F53E04C1B1C5E9700D8A4AC /* 致爱丽丝.mid */ = {isa = PBXFileReference; lastKnownFileType = audio.midi; path = "致爱丽丝.mid"; sourceTree = "<group>"; };
+		3F53E0721B1C5EFA00D8A4AC /* MIDIUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MIDIUtils.m; sourceTree = "<group>"; };
+		3F53E0741B1C5F6700D8A4AC /* gs_instruments.dls */ = {isa = PBXFileReference; lastKnownFileType = file; path = gs_instruments.dls; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3F0A2BA31AEE24FE000D49DB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3F0A2B9D1AEE24FE000D49DB = {
+			isa = PBXGroup;
+			children = (
+				3F0A2BA81AEE24FE000D49DB /* MIDIPlayer */,
+				3F0A2BA71AEE24FE000D49DB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3F0A2BA71AEE24FE000D49DB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3F0A2BA61AEE24FE000D49DB /* MIDIPlayer.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3F0A2BA81AEE24FE000D49DB /* MIDIPlayer */ = {
+			isa = PBXGroup;
+			children = (
+				3F0A2BAD1AEE24FE000D49DB /* AppDelegate.h */,
+				3F0A2BAE1AEE24FE000D49DB /* AppDelegate.m */,
+				3F0A2BB01AEE24FE000D49DB /* ViewController.h */,
+				3F0A2BB11AEE24FE000D49DB /* ViewController.m */,
+				3F0A2BD11AEE2581000D49DB /* MIDIPlayer.h */,
+				3F0A2BD21AEE2581000D49DB /* MIDIPlayer.m */,
+				3F0A2BD01AEE2581000D49DB /* MIDIUtils.h */,
+				3F53E0721B1C5EFA00D8A4AC /* MIDIUtils.m */,
+				3F0A2BB31AEE24FE000D49DB /* Main.storyboard */,
+				3F0A2BB61AEE24FE000D49DB /* Images.xcassets */,
+				3F0A2BB81AEE24FE000D49DB /* LaunchScreen.xib */,
+				3F53E0741B1C5F6700D8A4AC /* gs_instruments.dls */,
+				3F53E02E1B1C5E9700D8A4AC /* MIDI */,
+				3F0A2BA91AEE24FE000D49DB /* Supporting Files */,
+			);
+			path = MIDIPlayer;
+			sourceTree = "<group>";
+		};
+		3F0A2BA91AEE24FE000D49DB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3F0A2BAA1AEE24FE000D49DB /* Info.plist */,
+				3F0A2BAB1AEE24FE000D49DB /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3F53E02E1B1C5E9700D8A4AC /* MIDI */ = {
+			isa = PBXGroup;
+			children = (
+				3F53E02F1B1C5E9700D8A4AC /* 100.mid */,
+				3F53E0301B1C5E9700D8A4AC /* 100去踏板.mid */,
+				3F53E0311B1C5E9700D8A4AC /* 100去鼓.mid */,
+				3F53E0321B1C5E9700D8A4AC /* 100去鼓去踏板.mid */,
+				3F53E0331B1C5E9700D8A4AC /* 120.mid */,
+				3F53E0341B1C5E9700D8A4AC /* 120去鼓去贝司.mid */,
+				3F53E0351B1C5E9700D8A4AC /* AguadoOp4No1.mid */,
+				3F53E0361B1C5E9700D8A4AC /* ants.mid */,
+				3F53E0371B1C5E9700D8A4AC /* Bass_sample.mid */,
+				3F53E0381B1C5E9700D8A4AC /* Campeone.mid */,
+				3F53E0391B1C5E9700D8A4AC /* demo1_with_lyrics.mid */,
+				3F53E03A1B1C5E9700D8A4AC /* demo2_with_lyrics.mid */,
+				3F53E03B1B1C5E9700D8A4AC /* Digamese.mid */,
+				3F53E03C1B1C5E9700D8A4AC /* Drum_sample.mid */,
+				3F53E03D1B1C5E9700D8A4AC /* GM_DEMO.mid */,
+				3F53E03E1B1C5E9700D8A4AC /* Le Sacre Du Printemps - Stravinsky (Piano).mid */,
+				3F53E03F1B1C5E9700D8A4AC /* MIDI文件demo1（120）.mid */,
+				3F53E0401B1C5E9700D8A4AC /* MIDI文件demo2（100）.mid */,
+				3F53E0411B1C5E9700D8A4AC /* PRESO.mid */,
+				3F53E0421B1C5E9700D8A4AC /* Rondeau.mid */,
+				3F53E0431B1C5E9700D8A4AC /* Rondo in C (Op.51. No.1.).mid */,
+				3F53E0441B1C5E9700D8A4AC /* simpletest.mid */,
+				3F53E0451B1C5E9700D8A4AC /* Sonata No 14 in C#min-1.mid */,
+				3F53E0461B1C5E9700D8A4AC /* Sonata No 14 in C#min-3.mid */,
+				3F53E0471B1C5E9700D8A4AC /* Sonata No.9 in E-1.mid */,
+				3F53E0481B1C5E9700D8A4AC /* Winter Wonderland (solo piano).mid */,
+				3F53E0491B1C5E9700D8A4AC /* 命运交响曲第一章.mid */,
+				3F53E04A1B1C5E9700D8A4AC /* 埃克赛斯舞曲.mid */,
+				3F53E04B1B1C5E9700D8A4AC /* 绮想轮旋曲.mid */,
+				3F53E04C1B1C5E9700D8A4AC /* 致爱丽丝.mid */,
+			);
+			path = MIDI;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3F0A2BA51AEE24FE000D49DB /* MIDIPlayer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F0A2BC91AEE24FE000D49DB /* Build configuration list for PBXNativeTarget "MIDIPlayer" */;
+			buildPhases = (
+				3F0A2BA21AEE24FE000D49DB /* Sources */,
+				3F0A2BA31AEE24FE000D49DB /* Frameworks */,
+				3F0A2BA41AEE24FE000D49DB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MIDIPlayer;
+			productName = MIDIPlayer;
+			productReference = 3F0A2BA61AEE24FE000D49DB /* MIDIPlayer.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3F0A2B9E1AEE24FE000D49DB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = Seedfield;
+				TargetAttributes = {
+					3F0A2BA51AEE24FE000D49DB = {
+						CreatedOnToolsVersion = 6.3;
+					};
+				};
+			};
+			buildConfigurationList = 3F0A2BA11AEE24FE000D49DB /* Build configuration list for PBXProject "MIDIPlayer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3F0A2B9D1AEE24FE000D49DB;
+			productRefGroup = 3F0A2BA71AEE24FE000D49DB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3F0A2BA51AEE24FE000D49DB /* MIDIPlayer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3F0A2BA41AEE24FE000D49DB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F53E0511B1C5E9700D8A4AC /* 100.mid in Resources */,
+				3F53E0591B1C5E9700D8A4AC /* Bass_sample.mid in Resources */,
+				3F53E0561B1C5E9700D8A4AC /* 120去鼓去贝司.mid in Resources */,
+				3F53E0601B1C5E9700D8A4AC /* Le Sacre Du Printemps - Stravinsky (Piano).mid in Resources */,
+				3F53E0641B1C5E9700D8A4AC /* Rondeau.mid in Resources */,
+				3F53E05D1B1C5E9700D8A4AC /* Digamese.mid in Resources */,
+				3F53E0751B1C5F6700D8A4AC /* gs_instruments.dls in Resources */,
+				3F53E0541B1C5E9700D8A4AC /* 100去鼓去踏板.mid in Resources */,
+				3F53E0661B1C5E9700D8A4AC /* simpletest.mid in Resources */,
+				3F53E0551B1C5E9700D8A4AC /* 120.mid in Resources */,
+				3F53E0681B1C5E9700D8A4AC /* Sonata No 14 in C#min-3.mid in Resources */,
+				3F53E06C1B1C5E9700D8A4AC /* 埃克赛斯舞曲.mid in Resources */,
+				3F0A2BB51AEE24FE000D49DB /* Main.storyboard in Resources */,
+				3F53E05F1B1C5E9700D8A4AC /* GM_DEMO.mid in Resources */,
+				3F53E06B1B1C5E9700D8A4AC /* 命运交响曲第一章.mid in Resources */,
+				3F53E05E1B1C5E9700D8A4AC /* Drum_sample.mid in Resources */,
+				3F53E0631B1C5E9700D8A4AC /* PRESO.mid in Resources */,
+				3F53E0521B1C5E9700D8A4AC /* 100去踏板.mid in Resources */,
+				3F53E0651B1C5E9700D8A4AC /* Rondo in C (Op.51. No.1.).mid in Resources */,
+				3F53E0571B1C5E9700D8A4AC /* AguadoOp4No1.mid in Resources */,
+				3F53E06E1B1C5E9700D8A4AC /* 致爱丽丝.mid in Resources */,
+				3F53E0621B1C5E9700D8A4AC /* MIDI文件demo2（100）.mid in Resources */,
+				3F0A2BBA1AEE24FE000D49DB /* LaunchScreen.xib in Resources */,
+				3F53E05B1B1C5E9700D8A4AC /* demo1_with_lyrics.mid in Resources */,
+				3F53E0531B1C5E9700D8A4AC /* 100去鼓.mid in Resources */,
+				3F53E0581B1C5E9700D8A4AC /* ants.mid in Resources */,
+				3F53E0691B1C5E9700D8A4AC /* Sonata No.9 in E-1.mid in Resources */,
+				3F53E05A1B1C5E9700D8A4AC /* Campeone.mid in Resources */,
+				3F53E05C1B1C5E9700D8A4AC /* demo2_with_lyrics.mid in Resources */,
+				3F53E0611B1C5E9700D8A4AC /* MIDI文件demo1（120）.mid in Resources */,
+				3F53E0671B1C5E9700D8A4AC /* Sonata No 14 in C#min-1.mid in Resources */,
+				3F53E06D1B1C5E9700D8A4AC /* 绮想轮旋曲.mid in Resources */,
+				3F53E06A1B1C5E9700D8A4AC /* Winter Wonderland (solo piano).mid in Resources */,
+				3F0A2BB71AEE24FE000D49DB /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3F0A2BA21AEE24FE000D49DB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F53E0731B1C5EFA00D8A4AC /* MIDIUtils.m in Sources */,
+				3F0A2BD81AEE2581000D49DB /* MIDIPlayer.m in Sources */,
+				3F0A2BB21AEE24FE000D49DB /* ViewController.m in Sources */,
+				3F0A2BAF1AEE24FE000D49DB /* AppDelegate.m in Sources */,
+				3F0A2BAC1AEE24FE000D49DB /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		3F0A2BB31AEE24FE000D49DB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3F0A2BB41AEE24FE000D49DB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3F0A2BB81AEE24FE000D49DB /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3F0A2BB91AEE24FE000D49DB /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3F0A2BC71AEE24FE000D49DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		3F0A2BC81AEE24FE000D49DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3F0A2BCA1AEE24FE000D49DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MIDIPlayer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3F0A2BCB1AEE24FE000D49DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MIDIPlayer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3F0A2BA11AEE24FE000D49DB /* Build configuration list for PBXProject "MIDIPlayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F0A2BC71AEE24FE000D49DB /* Debug */,
+				3F0A2BC81AEE24FE000D49DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3F0A2BC91AEE24FE000D49DB /* Build configuration list for PBXNativeTarget "MIDIPlayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F0A2BCA1AEE24FE000D49DB /* Debug */,
+				3F0A2BCB1AEE24FE000D49DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3F0A2B9E1AEE24FE000D49DB /* Project object */;
+}
