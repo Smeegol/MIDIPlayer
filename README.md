@@ -13,4 +13,4 @@ BUT there are still
 `MIDI文件demo2（100）.mid` 
 cannot be played very well. It can be recognized clearly different with Sweet MIDI Player plays. Who can help me fix it, let it play totally right? Thanks!
 
-[1] http://www.ronimusic.com/download.htm#DL_SWEET_MIDI_PLAYER
+  [1]: http://www.ronimusic.com/download.htm#DL_SWEET_MIDI_PLAYER
